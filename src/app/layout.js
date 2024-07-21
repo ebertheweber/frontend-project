@@ -1,3 +1,4 @@
+import Footer from "@/components/common/footer/footer";
 import MainMenuBar from "@/components/common/header/main-menubar";
 import Topbar from "@/components/common/header/topbar";
 import { config } from "@/helpers/config";
@@ -19,7 +20,9 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true}>
         <Topbar/>
         <MainMenuBar/>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
 
     </html>
   );
