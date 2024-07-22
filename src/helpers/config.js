@@ -9,8 +9,8 @@ export const config = {
   },
   contact: {
     info: {
-      phone1: { value: "+1134565222", icon: "pi pi-phone", link: "tel:+1134565222" },
-      phone2: { value: "+1134565223", icon: "pi pi-headphones", link: "tel:1134565223" },
+      phone1: { value: "+1 (955) 908-8026", icon: "pi pi-phone", link: "tel:+1(955)908-8026" },
+      phone2: { value: "+1 (955) 908-8027", icon: "pi pi-headphones", link: "tel:+1(955)908-8027" },
       email: {
           value: "info@technexusacademy.com",
           icon: "pi pi-envelope",
